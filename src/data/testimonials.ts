@@ -1,0 +1,58 @@
+import type { Testimonial } from '../types';
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Rizky Pratama',
+    avatar: 'https://i.pravatar.cc/80?img=11',
+    rating: 5,
+    comment: 'Pengalaman rental motor terbaik di Semarang! Motor Honda PCX yang saya sewa kondisinya sangat terawat dan bersih. Proses booking via WhatsApp juga sangat mudah dan cepat. Tim FindRide super responsif!',
+    date: '2024-10-15',
+    motorcycleRented: 'Honda PCX 160',
+  },
+  {
+    id: '2',
+    name: 'Aulia Rahmawati',
+    avatar: 'https://i.pravatar.cc/80?img=5',
+    rating: 5,
+    comment: 'Saya biasa rental motor setiap liburan ke Semarang. FindRide selalu jadi pilihan karena harganya transparan, tidak ada biaya tersembunyi. Motor Yamaha NMAX yang saya sewa sangat nyaman untuk keliling kota!',
+    date: '2024-11-02',
+    motorcycleRented: 'Yamaha NMAX',
+  },
+  {
+    id: '3',
+    name: 'Dimas Fauzan',
+    avatar: 'https://i.pravatar.cc/80?img=15',
+    rating: 4,
+    comment: 'Layanan antar motor ke hotel sangat membantu. Tidak perlu repot-repot ke tempat rental. Honda Beat yang saya sewa irit banget, cocok untuk muter-muter Kota Lama Semarang. Pasti balik lagi!',
+    date: '2024-09-28',
+    motorcycleRented: 'Honda Beat',
+  },
+  {
+    id: '4',
+    name: 'Nadya Kusuma',
+    avatar: 'https://i.pravatar.cc/80?img=9',
+    rating: 5,
+    comment: 'Pakai promo RIDEWEEK untuk 7 hari, hemat banget! Motor Yamaha Aerox kondisinya prima, dipakai jalan ke Ungaran dan Ambarawa juga aman. Helm dan jaket disediakan, pelayanannya profesional sekali.',
+    date: '2024-10-20',
+    motorcycleRented: 'Yamaha Aerox 155',
+  },
+  {
+    id: '5',
+    name: 'Fikri Maulana',
+    avatar: 'https://i.pravatar.cc/80?img=20',
+    rating: 5,
+    comment: 'Mahasiswa perantau yang butuh motor untuk mobilitas sehari-hari. FindRide solusinya! Harga terjangkau, proses mudah, dan kondisi motor selalu bagus. Sudah langganan sejak 2022!',
+    date: '2024-11-10',
+    motorcycleRented: 'Honda Vario 125',
+  },
+  {
+    id: '6',
+    name: 'Sarah Indrayana',
+    avatar: 'https://i.pravatar.cc/80?img=25',
+    rating: 4,
+    comment: 'Pertama kali sewa motor di FindRide dan langsung terkesan. Honda ADV 160 yang saya sewa sangat cocok untuk wisata alam sekitar Semarang. Staf sangat membantu menjelaskan rute dan kondisi jalan.',
+    date: '2024-10-05',
+    motorcycleRented: 'Honda ADV 160',
+  },
+];
